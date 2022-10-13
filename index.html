@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
     <!-- link de BTS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="style/styles.css">
-    <title>Inicio</title>
+    <meta name="description"
+        content="El entrenamiento personal está orientado a poner a disposición del cliente toda la tecnología, 
+        con la finalidad de alcanzar los mejores resultados en el menor tiempo, y de la forma más efectiva y segura.">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Force's Gym - Inicio</title>
 </head>
+
 <body>
-    
+
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Force's Gym</a>
+                <a class="navbar-brand" href="#"> <strong>Force's Gym</strong> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,7 +36,7 @@
                             <a class="nav-link active" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/clases.html" >Clases</a>
+                            <a class="nav-link" href="./pages/clases.html">Clases</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/gimnasios.html">Gimnasios</a>
@@ -44,43 +51,48 @@
                 </div>
             </div>
         </nav>
-        
+
     </header>
 
     <main>
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="./img/portada1.png" class="d-block w-100" alt="...">
+                    <img src="./img/portada1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/portada2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/portada3.png" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./img/portada2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/portada3.png" class="d-block w-100" alt="...">
-            </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
         <div class="seccion1">
-            <section >
-                <h2 >CREA TU CUERPO PERFECTO</h2>
+            <section>
+                <h2>CREA TU CUERPO PERFECTO</h2>
                 <h2>Elige tu meta</h2>
-                <div class="meta_seccion">
+                <div>
                     <div class="meta">
                         <a href="">
                             <h3>Perder peso</h3>
@@ -93,38 +105,48 @@
                             <img src="./img/ganancia_muscular.webp" alt="...">
                         </a>
                     </div>
-    
+
                     <div class="meta">
                         <a href="">
                             <h3>Definición</h3>
                             <img src="./img/definicion.webp" alt="...">
                         </a>
                     </div>
-                    
-    
+
+
                 </div>
             </section>
         </div>
 
 
         <section class="seccion2">
-            <div class="sec_text">
-                <h2>Force's Gym App: una experiencia de entrenamiento completa, dentro y fuera del gimnasio.</h2>
-                <p>No importa si ya tienes experiencia o si recién estás comenzando a practicar actividad física, 
-                    una cosa es segura: ¡al descargar gratis la aplicación Force's Gym , obtienes el mejor aliado 
-                    para tu rutina de entrenamiento! Exclusivo para clientes.
-                </p>
-            </div>
+            <section>
+                <div class="sec_text">
+                    <h2> <strong>Force's Gym</strong> App: una experiencia de entrenamiento completa, dentro y fuera del gimnasio.</h2>
+                    <p>No importa si ya tienes experiencia o si recién estás comenzando a practicar actividad física,
+                        una cosa es segura: ¡al descargar gratis la aplicación Force's Gym , obtienes el mejor aliado
+                        para tu rutina de entrenamiento! Exclusivo para clientes.
+                    </p>
+                </div>
 
-            <div class="sec_qr">
-                <h6>descarga gratis</h6>
-                <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcr_developers.ec.forcesgym&s=6&e=m" alt="Generador de Códigos QR Codes"/>
-                <br/><a href="https://play.google.com/store/apps/details?id=cr_developers.ec.forcesgym" target="_blank" id"qrgenerator">Force's Gym App</a>
-            </div>
+            </section>
 
-            <div class="sec_img">
-                <img src="./img/celular.png" alt="...">
-            </div>
+            <section>
+                <div class="sec_qr">
+                    <h6>descarga gratis</h6>
+                    <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcr_developers.ec.forcesgym&s=6&e=m"
+                        alt="Generador de Códigos QR Codes" />
+                    <br /><a href="https://play.google.com/store/apps/details?id=cr_developers.ec.forcesgym"
+                        target="_blank" id"qrgenerator">Force's Gym App</a>
+                </div>
+
+            </section>
+
+            <section>
+                <div class="sec_img">
+                    <img src="./img/celular.png" alt="...">
+                </div>
+            </section>
 
         </section>
 
@@ -137,15 +159,15 @@
 
             <h4 class="footer_title">FORCE'S GYM</h4>
 
-            <a class="contenido" href="" >
+            <a class="contenido" href="">
                 <h4>Quiénes Somos?</h4>
             </a>
 
-            <a class="contenido" href="" >
+            <a class="contenido" href="">
                 <h4>Contáctanos</h4>
             </a>
 
-            <a class="contenido"  href="">
+            <a class="contenido" href="">
                 <h4>Documentos</h4>
             </a>
 
@@ -178,25 +200,29 @@
 
             <div>
                 <a class="contenido" href="https://www.facebook.com/ForcesGym" target="_blank">
-                    <img class="icon_facebook" src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="icon_facebook">
+                    <img class="icon_facebook" src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"
+                        alt="icon_facebook">
                     <h4 class="icon_facebook">Facebook</h4>
                 </a>
             </div>
             <div>
                 <a class="contenido" href="https://www.instagram.com/forces.gym/" target="_blank">
-                    <img class="icon_instagram" src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png" alt="icon_instagram">
+                    <img class="icon_instagram" src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png"
+                        alt="icon_instagram">
                     <h4 class="icon_instagram">Instagram</h4>
                 </a>
             </div>
             <div>
                 <a class="contenido" href="https://www.facebook.com/ForcesGym" target="_blank">
-                    <img class="icon_twitter" src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="icon_twitter">
+                    <img class="icon_twitter" src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
+                        alt="icon_twitter">
                     <h4 class="icon_twitter">Twitter</h4>
                 </a>
             </div>
             <div>
-                <a class="contenido"  href="https://www.instagram.com/forces.gym/" target="_blank">
-                    <img class="icon_tiktok" src="https://img.icons8.com/ios-filled/50/000000/tiktok--v1.png" alt="icon_tiktok">
+                <a class="contenido" href="https://www.instagram.com/forces.gym/" target="_blank">
+                    <img class="icon_tiktok" src="https://img.icons8.com/ios-filled/50/000000/tiktok--v1.png"
+                        alt="icon_tiktok">
                     <h4 class="icon_tiktok">Tik Tok</h4>
                 </a>
             </div>
@@ -206,11 +232,10 @@
     </footer>
 
     <!-- scripts de BTS -->
-    <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-        crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 
 </body>
+
 </html>

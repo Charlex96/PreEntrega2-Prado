@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    /* font-family: 'Poppins',sans-serif; */
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    margin: 0;
+    padding: 30 0 30 0;
+}
+
+header{
+    padding: 20px;
+}
+
+nav, header{
+    background-color: black;
+}
+
+#carouselExampleIndicators{
+    margin-bottom: 60px;
+}
+
+main{
+    display: inline-block;
+}
+
+hr{
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p{
+    font-weight: 200;
+    text-align: start;
+}
+
+h5, h2{
+    font-size: 18px;
+}
+
+h2{
+    grid-area: h2;
+}
+
+h4{
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

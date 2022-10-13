@@ -1,0 +1,400 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oooh+Baby&family=Poppins:wght@600&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap'); */
+/*mobile first*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  /* font-family: 'Poppins',sans-serif; */
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  margin: 0;
+  padding: 30 0 30 0;
+}
+
+header {
+  padding: 20px;
+}
+
+nav, header {
+  background-color: black;
+}
+
+#carouselExampleIndicators {
+  margin-bottom: 60px;
+}
+
+main {
+  display: inline-block;
+}
+
+hr {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 200;
+  text-align: start;
+}
+
+h5, h2 {
+  font-size: 18px;
+}
+
+h2 {
+  grid-area: h2;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.seccion1 section h2 {
+  padding: 10px;
+}
+.seccion1 section div {
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+.seccion1 section div .meta {
+  width: 250px;
+  border: solid 3px rgba(189, 189, 189, 0.303);
+  border-radius: 20px;
+  margin: 15px;
+  /* alinear al centro */
+  text-align: center;
+  padding: 5px;
+  transition-property: all;
+  transition-duration: 1000ms;
+  grid-area: meta;
+}
+.seccion1 section div .meta :hover {
+  transform: scale(1.1);
+}
+.seccion1 section div .meta a img {
+  width: 150px;
+  height: 300px;
+}
+
+.seccion2 {
+  background-color: rgba(209, 208, 213, 0.6470588235);
+  margin-bottom: 1.5em;
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "sec_text" "sec_qr" "sec_img";
+}
+.seccion2 section {
+  text-align: start;
+}
+.seccion2 section .sec_text {
+  grid-area: sec_text;
+}
+.seccion2 section .sec_text h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.seccion2 section .sec_text p {
+  font-size: 15px;
+}
+.seccion2 section {
+  text-align: center;
+}
+.seccion2 section .sec_qr {
+  grid-area: sec_qr;
+}
+.seccion2 section .sec_qr img {
+  width: 180px;
+  height: 180px;
+}
+.seccion2 section .sec_img {
+  grid-area: sec_img;
+}
+.seccion2 section .sec_img img {
+  width: 400px;
+  height: 500px;
+  border: 2px solid #212529;
+  border-radius: 5px;
+  margin: 15px 0px 15px 0px;
+}
+
+.clases_container {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+.clases_container section {
+  width: 100%;
+}
+.clases_container section div {
+  display: inline-block;
+}
+.clases_container section div .clase {
+  /* background-color: white; */
+  width: 250px;
+  border: solid 3px rgba(189, 189, 189, 0.303);
+  border-radius: 20px;
+  margin: 20px 70px;
+  /* alinear al centro */
+  text-align: center;
+  padding: 5px;
+  filter: drop-shadow(2px 4px 8px #585858);
+  transition-property: all;
+  transition-duration: 1000ms;
+}
+.clases_container section div .clase h3 {
+  margin: 10px 0px;
+}
+.clases_container section div .clase p {
+  font-size: 15px;
+  text-align: justify;
+  margin: 25px 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.gimnasios section div {
+  margin: 20px 10px;
+}
+.gimnasios section div a h2 {
+  font-size: 25px;
+  text-align: start;
+}
+
+@media (min-width: 480px) {
+  .gimnasios section div {
+    margin: 20px 20px;
+  }
+  .gimnasios section div a h2 {
+    font-size: 35px;
+  }
+}
+.seccion1 .planes p {
+  margin: 20px 10px;
+  text-align: center;
+  font-weight: 400;
+}
+.seccion1 .planes div hr {
+  color: rgba(128, 128, 128, 0.571);
+}
+.seccion1 .planes div .meta {
+  margin: 10px 20px;
+  background-color: white;
+}
+.seccion1 .planes div .meta h3 {
+  font-size: 18px;
+  margin: 5px;
+}
+.seccion1 .planes div .meta .btn {
+  font-size: 15px;
+  margin: 20px 0px;
+}
+.seccion1 .planes div .meta .ventajas {
+  background-color: white;
+}
+.seccion1 .planes div .meta .ventajas h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.seccion1 .planes div .meta .ventajas p {
+  font-size: 13px;
+  margin: 15px 2px;
+  text-align: start;
+}
+.seccion1 .terminos h2 {
+  margin: 10px;
+}
+.seccion1 .terminos p {
+  font-size: 14px;
+}
+.seccion1 .terminos div {
+  padding: 20px 20px;
+  border: solid 2px rgba(189, 189, 189, 0.303);
+  border-radius: 4px;
+  margin: 30px;
+}
+.seccion1 .terminos div h6 {
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+}
+.seccion1 .terminos div:hover {
+  border: solid 2px black;
+}
+
+@media (min-width: 480px) {
+  .seccion1 .planes p {
+    margin: 30px 10px;
+  }
+  .seccion1 .planes div .meta {
+    margin: 70px 20px;
+  }
+}
+.info_div {
+  margin: 10px;
+}
+.info_div p {
+  text-align: justify;
+  font-size: 12px;
+  margin: 0px 10px 30px 6px;
+}
+.info_div h3 {
+  font-size: 15px;
+  text-align: start;
+}
+
+.meta p {
+  text-align: justify;
+  font-size: 12px;
+  margin: 0px 10px 30px 6px;
+}
+.meta h3 {
+  font-size: 15px;
+}
+
+.btn {
+  font-size: 15px;
+}
+
+footer {
+  margin-bottom: 0;
+  background-color: #FFD825;
+  padding: 5px 0px 5px 10px;
+  border-radius: 5px;
+  text-align: start;
+  margin: 10px;
+  padding-top: 15px;
+}
+footer .contenedor {
+  grid-area: contenedor;
+}
+footer .contenedor .footer_title {
+  color: black;
+  font-size: 15px;
+}
+footer .contenedor .contenido h4 {
+  padding: 2px 0px 2px 5px;
+}
+footer .contenedor .contenido img {
+  width: 24px;
+}
+
+.icon_facebook, .icon_tiktok, .icon_twitter, .icon_instagram {
+  display: inline-block;
+  width: auto;
+  margin: auto;
+  text-align: left;
+  padding-left: 5px;
+}
+
+@media (min-width: 480px) {
+  .seccion1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .seccion1 section h2 {
+    padding: 10px;
+  }
+  .seccion1 section div .meta a img {
+    height: 350px;
+  }
+  .seccion2 {
+    margin: 0;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "sec_text sec_img" "sec_qr sec_img";
+  }
+  .seccion2 section .sec_text h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .seccion2 section .sec_text p {
+    font-size: 20px;
+  }
+  .seccion2 section .sec_img img {
+    width: 500px;
+    height: 650px;
+    border: 2px solid #686868;
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+  }
+  .seccion2 section .sec_qr img {
+    width: 200px;
+    height: 200px;
+  }
+  .info_div p {
+    font-size: 16px;
+  }
+  .info_div h3, .meta h3, .btn {
+    font-size: 24px;
+  }
+  h5, h2 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .contenedor {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    text-align: left;
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+  }
+  footer hr {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .seccion2 {
+    margin: 0;
+    align-items: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "sec_text sec_qr sec_img";
+  }
+  .seccion2 .sec_text h2 {
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-align: start;
+  }
+  .seccion2 .sec_text p {
+    font-size: 18px;
+  }
+  .seccion2 .sec_qr img {
+    width: 250px;
+    height: 250px;
+  }
+  .seccion2 .sec_img img {
+    width: 460px;
+    height: 610px;
+  }
+}/*# sourceMappingURL=style.css.map */

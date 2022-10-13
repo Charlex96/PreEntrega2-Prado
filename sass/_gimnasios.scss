@@ -1,0 +1,36 @@
+
+
+@mixin size_margin( $size_vertical, $size_horizontal) {
+    margin: $size_vertical $size_horizontal;
+    
+}
+
+.gimnasios{
+    section{
+        div{
+            @include size_margin(20px, 10px);
+            a{
+                h2{
+                    font-size: 25px;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:$layout-mobile) {
+    .gimnasios{
+        section{
+            div{
+                @include size_margin(20px, 20px);
+                a{
+                    h2{
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+

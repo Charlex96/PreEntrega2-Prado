@@ -1,0 +1,45 @@
+footer{
+    margin-bottom: 0;
+    background-color: $primary_color;
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px;
+    text-align: start;
+    margin: 10px;
+    padding-top: 15px;
+    .contenedor{
+        grid-area: contenedor;
+        .footer_title{
+            color: black;
+            font-size: 15px;
+        }
+        .contenido {
+            h4{
+                padding: 2px 0px 2px 5px;
+            }
+            img{
+                width: 24px;
+            }
+        }
+    }
+    
+}
+
+.icon_facebook{
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.icon_instagram{
+    @extend .icon_facebook;
+}
+
+.icon_twitter{
+    @extend .icon_facebook;
+}
+
+.icon_tiktok{
+    @extend .icon_facebook;
+}

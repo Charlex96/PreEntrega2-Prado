@@ -1,0 +1,87 @@
+.seccion1{
+
+    .planes{
+        p{
+            margin: 20px 10px;
+            text-align: center;
+            font-weight: 400;
+        }
+        div{
+            hr{
+                color: rgba(128, 128, 128, 0.571)
+            }
+            .meta{
+                margin: 10px 20px;
+                background-color: white;
+                h3{
+                    font-size: 18px;
+                    margin: 5px;
+                }
+                .btn{
+                    font-size: 15px;
+                    margin: 20px 0px;
+                }
+                .ventajas{
+                    background-color: white;
+                    h5{
+                        font-size: 18px;
+                        margin-top:  10px;
+                    }
+                    p{
+                        font-size: 13px;
+                        margin: 15px 2px;
+                        text-align: start;
+    
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .terminos{
+        h2{
+            margin: 10px;
+        }
+        p{
+            font-size: 14px;
+        }
+        div{
+            padding: 20px 20px;
+            border: solid 2px $border_color;
+            border-radius: 4px;
+            margin: 30px ;
+            h6{
+                font-size: 12px;
+                text-align: center;
+                justify-content: center;
+                margin: 0px;
+            }
+        }
+        div:hover{
+            border: solid 2px black;
+        }
+    }
+
+}
+
+
+
+@media(min-width:$layout-mobile){
+
+    .seccion1{
+        .planes{
+            p{
+                margin: 30px 10px;
+            }
+            div{
+                .meta{
+                    margin: 70px 20px;
+                }
+            }
+            
+        }
+    
+    }
+
+}
